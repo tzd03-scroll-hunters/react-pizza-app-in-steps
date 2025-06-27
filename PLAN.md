@@ -37,3 +37,29 @@ Dann kann ich erstmal, ohne großen Stress, die Components anordnen (Flex, Grid)
 
 ## Outsourcing components in Files
 
+Outsource dummy HTML in eigene JSX files.
+
+Starte mit den Dingen, die sich wiederholen => z.B. Cards, Custom Buttons
+
+## DATEN
+
+### Outsource hardcoded Daten aus HTML cards in State
+
+Outsource Daten von Items in STATE und gebe die Daten als PROP in die Components hinein.
+
+STATE => das sind die DATEN, die sich ändern können oder gefiltert werden können
+
+PROPS => konkrete Daten aus State in eine Component / Layout injecten / einfügen
+
+Bei Cards => fast immer ein Array von Objects
+
+### Injecte Daten in Component mit Props
+
+Am einfachsten: 
+Mappe über Array von Objects und wandel jedes Object in eine Component um. Übergebe Object als PROP jeder Card.
+
+Card bekommt Daten und gibt Daten in seinem Layout aus.
+
+
+
+
