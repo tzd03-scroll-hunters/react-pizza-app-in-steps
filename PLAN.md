@@ -1,5 +1,7 @@
 # Plan
 
+Von Idee Schritt für Schritt zur App Umsetzung.
+
 ## Mockup / Wireframe
 
 Erstelle Wireframe
@@ -55,10 +57,17 @@ Bei Cards => fast immer ein Array von Objects
 
 Gebe die Daten als PROP in die Components hinein, die Daten anzeigen sollen.
 
-### Injecte Daten in Component mit Props
+### Injecte Daten in Components hinein
+
+Injecte Daten aus State in Components mit Props
 
 Am einfachsten: 
 Mappe über Array von Objects und wandel jedes Object in eine Component um. Übergebe Object als PROP jeder Card.
 
 Card bekommt Daten. Und gibt Daten in seinem Layout an den richtigen Stellen aus.
+
+### ??? Next Step ???
+
+To be continued...
+
 
