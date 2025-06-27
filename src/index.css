@@ -19,3 +19,21 @@ input {
   text-align: center;
 }
 
+.pizza-list {
+  margin: auto;
+}
+
+.card {  
+  display: flex;
+  border: 1px solid #333;
+  padding: .7em;
+
+  img {
+    width: 200px;
+  }
+
+  .card-body {
+    padding: 1em;
+  }
+
+}

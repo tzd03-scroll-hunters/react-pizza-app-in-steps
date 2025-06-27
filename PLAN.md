@@ -35,3 +35,5 @@ Einfach erstmal Dummy Content ohne State und Logik.
 
 Dann kann ich erstmal, ohne großen Stress, die Components anordnen (Flex, Grid).
 
+## Outsourcing components in Files
+
