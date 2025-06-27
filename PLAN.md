@@ -3,16 +3,15 @@
 ## Mockup / Wireframe
 
 Erstelle Wireframe
-Über Wireframe bekommen wir COMPONENTS
 
-Alles was sich WIEDERHOLT, ist definitiv immer eine Component.
+Aus Wireframe können wir LISTE an COMPONENTS relativ leicht herausfinden.
 
-Am Ende haben wir eine erste Liste an Componentns.
+Alles was sich WIEDERHOLT, ist ein guter Candidate für eine Component.
 
 Beispiel Pizza App:
 https://pizza-store-two.vercel.app/
 
-Erste Component Liste:
+Erste Idee einer Component Liste:
 - Header
 - Nav
 - Search Box
@@ -21,45 +20,45 @@ Erste Component Liste:
 
 Für jede Component, die IMMER sichtbar ist und sich nicht ändert (Beispiel Header) kann man auch das HTML direkt in die App.jsx packen.
 
-## VsCode
-
 Für jede Component ein File anlegen (ein .jsx File)
 
 ## CSS Reset
 
-Alle Default Styles von React raus
+Alle Default Styles von React raus :) => index.css, App.css
 
 ## Dummy Content für Components
 
-Einfach erstmal Dummy Content ohne State und Logik.
+Für jede Component ein File anlegen. 
 
-Dann kann ich erstmal, ohne großen Stress, die Components anordnen (Flex, Grid).
+Einfach erstmal Dummy Content in App.jsx einfügen. Noch ohne State und Logik.
 
-## Outsourcing components in Files
+Dann kann ich erstmal, ohne großen Stress, das Layout für die Components aufsetzen (Flex, Grid, Bootstrap Grid, etc).
 
-Outsource dummy HTML in eigene JSX files.
+## Outsource Components in Files
+
+Outsource dummy HTML Blöcke aus App.jsx in eigene JSX files.
 
 Starte mit den Dingen, die sich wiederholen => z.B. Cards, Custom Buttons
 
+Elemente, die auf allen Pages gleich bleiben (wie Nav oder Header Title) können auch erstmal in App.jsx bleiben
+Und erst wenn der Code in App.jsx zuviel wird, kann man auch diese Teile auslagert. 
+
 ## DATEN
 
-### Outsource hardcoded Daten aus HTML cards in State
+### Outsource hardcoded Daten aus allen HTML Cards in State
 
-Outsource Daten von Items in STATE und gebe die Daten als PROP in die Components hinein.
+Outsource Daten von Items in STATE.
 
-STATE => das sind die DATEN, die sich ändern können oder gefiltert werden können
-
-PROPS => konkrete Daten aus State in eine Component / Layout injecten / einfügen
+STATE => das sind die DATEN, die sich durch User Interaktion ändern (!) können oder gefiltert werden können
 
 Bei Cards => fast immer ein Array von Objects
+
+Gebe die Daten als PROP in die Components hinein, die Daten anzeigen sollen.
 
 ### Injecte Daten in Component mit Props
 
 Am einfachsten: 
 Mappe über Array von Objects und wandel jedes Object in eine Component um. Übergebe Object als PROP jeder Card.
 
-Card bekommt Daten und gibt Daten in seinem Layout aus.
-
-
-
+Card bekommt Daten. Und gibt Daten in seinem Layout an den richtigen Stellen aus.
 
